@@ -9,12 +9,14 @@
     <!-- Bootstrap + Sylvain J main styles -->
     <link rel="stylesheet" href="assets/css/_header.css">
     <link rel="stylesheet" href="assets/css/SylvainJ.css">
+    <link rel="stylesheet" href="assets/js/SylvainJ.js">
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
 <header class="header">
     <div class="container">
-        <ul class="social-icons pt-3">
+         <ul class="social-icons pt-3">
             <li class="social-item">
                 <a class="social-link text-dark" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener">
                     <i class="ti-linkedin" aria-hidden="true"></i>
@@ -51,7 +53,7 @@
             </ul>
             <ul class="navbar-nav brand">
                 <li>
-                    <img id="photo-sylvain" src="assets/imgs/SJ.jpeg" alt="Portrait de Sylvain Jollin" class="brand-img">
+                    <img src="assets/imgs/SJ.jpeg" alt="Portrait de Sylvain Jollin" class="brand-img" id="brandImage">
                 </li>
                 <li class="brand-txt">
                     <h5 class="brand-title">Sylvain Jollin</h5>
@@ -77,7 +79,7 @@
             <span class="line mb-5"></span>
             <h5 class="mb-3">Actuellement gestionnaire d'un parc informatique au CFP Galt à Verdun, Montréal</h5>
             <p class="mt-20">J'ai fait une école d'informatique, car depuis tout petit je baigne dans les ordinateurs, cela est devenu un hobby. Mon premier ordinateur était un Amstrad 6128.</p>
-            <a class="btn btn-outline-danger" href="assets/Sylvain_Jollin_Technicien_Informatique3.pdf" target="_blank" rel="noopener noreferrer" aria-label="Télécharger mon CV">
+            <a class="btn btn-outline-danger" href="assets/Sylvain Jollin Technicien Informatique3.pdf" target="_blank" rel="noopener noreferrer" aria-label="Télécharger mon CV">
                 <i class="icon-down-circled2"></i> Télécharger mon CV
             </a>
         </div>
@@ -92,12 +94,12 @@
             </ul>
             <ul class="social-icons pt-3">
                 <li class="social-item">
-                    <a class="social-link" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                    <a class="social-link" href="https://www.linkedin.com/in/sylvain-jollin" aria-label="LinkedIn" target="_blank" rel="noopener">
                         <i class="ti-linkedin" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="social-item">
-                    <a class="social-link" href="https://github.com/" aria-label="GitHub" target="_blank" rel="noopener">
+                    <a class="social-link" href="https://github.com/Kulalo" aria-label="GitHub" target="_blank" rel="noopener">
                         <i class="ti-github" aria-hidden="true"></i>
                     </a>
                 </li>
@@ -151,6 +153,15 @@
                         </div>
                     </div>
                     <div class="card-body">
+                        
+                        <h6 class="title text-danger">08/2023 - 12/2023</h6>
+                        <p><strong>Helpesk Dollarama (Montréal)</strong></p>
+                        <p class="subtitle">
+                            &rarr;  Aider les utilisateurs à résoudre des problèmes de niveau 1 (Écran noire,
+                                    souris bloquée, Word non connecté...) par des moyens de communication tel TeamViewer, Chrome
+                                    Desktop.<br>
+                            
+                        
                         <h6 class="title text-danger">04/2023 - 07/2023</h6>
                         <p><strong>Team Truck (Montréal)</strong></p>
                         <p class="subtitle">
@@ -216,17 +227,34 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <h6 class="title text-danger">2022 - Aujourd'hui</h6>
-                        <p><strong>Étudiant Technicien informatique</strong></p>
-                        <p class="subtitle">
-                            &rarr; Installation de poste ordinateur et logiciel (Microsoft Office / Système d'exploitation et autres…)<br> 
-                            &rarr; Excel / PowerPoint / Word…<br> 
-                            &rarr; Identification et résolution de problèmes<br> 
-                            &rarr; Connexion et configuration de périphériques et autres matériels tels qu'imprimante / scanner / écran / souris / clavier etc…<br>
-                            &rarr; Python débutant<br> 
-                            &rarr; Access : Création de tables / requêtes / états<br>
-                            &rarr; Plateforme HTML et CSS débutant
-                        </p>
+  				 <h6 class="title text-danger">09/2022 - 03/2024</h6>
+                            <P><b>Études DEP soutien informatique
+                                <br>CFP des Carrefours</b></P>
+                            <P class="subtitle"><br><font color ="c53838", size="5"><B>Cours Suivis</B></font> 
+                                <br>- Métier et formation
+                                <br>- Analyse de systèmes
+                                <br>- Système d'exploitation vieillissants
+                                <br>- Résolution de problèmes 
+                                <br>- Recherche d'information
+                                <br>- Programmation d'un utilitaire 
+                                <br>- Interactions professionnelles
+                                <br>- Logiciels d'application
+                                <br>- Système d'exploitation récents
+                                <br>- Base de données
+                                <br>- Installation d'un poste
+                                <br>- Gestion du temps
+                                <br>- Communication en anglais
+                                <br>- Réseau: gestion d'accès
+                                <br>- Réseau: partage de ressource
+                                <br>- Moyens de télécommunication
+                                <br>- Cheminement professionnel
+                                <br>- Rétablissement d'un poste
+                                <br>- Optimisation d'un poste
+                                <br>- Assistance en centre d'appel
+                                <br>- Stage: soutien technique
+                                <br>- Stage: service à la clientèle
+                            </P>
+
                         <hr>
                         <h6 class="title text-danger">18/01/2021 - 28/01/2021</h6>
                         <p><strong>City Pro (France)</strong></p>
@@ -258,31 +286,31 @@
                     <div class="card-body pb-2">
                        <h6>HTML &amp; CSS</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Support technique</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Installation d'un poste</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Analyse et Résolution de problèmes</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Python / Visual Studio Code</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Microsoft Office 365</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>MacOS</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -296,11 +324,11 @@
                     <div class="card-body pb-2">
                        <h6>Français</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Anglais</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -329,8 +357,8 @@
                             <i class="ti-map-alt icon-md" aria-hidden="true"></i>
                         </div>
                         <div class="col-10">
-                            <h6 class="d-inline">Adresse :<br> <span class="text-muted">89 l'Impasse des Pins</span></h6>
-                            85690 Notre-Dame-de-Monts
+                            <h6 class="d-inline">Adresse : <br> <span class="text-muted"><a href="https://www.google.com/maps/search/?api=1&query=89+l'Impasse+des+Pins+85690+Notre-Dame-de-Monts" target="_blank" rel="noopener">89 l'Impasse des Pins 85690 Notre-Dame-de-Monts</a></span></h6>
+                            
                         </div>
                     </div>
                     <div class="row mb-2">
@@ -343,12 +371,12 @@
                     </div>
                     <ul class="social-icons pt-4">
                         <li class="social-item">
-                            <a class="social-link text-dark" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <a class="social-link text-dark" href="https://www.linkedin.com/in/sylvain-jollin" aria-label="LinkedIn" target="_blank" rel="noopener">
                                 <i class="ti-linkedin" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="social-item">
-                            <a class="social-link text-dark" href="https://github.com/" aria-label="GitHub" target="_blank" rel="noopener">
+                            <a class="social-link text-dark" href="https://github.com/Kulalo/" aria-label="GitHub" target="_blank" rel="noopener">
                                 <i class="ti-github" aria-hidden="true"></i>
                             </a>
                         </li>
@@ -385,18 +413,10 @@
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
-<script>
-  // Sélectionne la photo par son id
-  const photo = document.getElementById('photo-sylvain');
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 100) {
-      photo.classList.add('photo-hidden');
-    } else {
-      photo.classList.remove('photo-hidden');
-    }
-  });
-</script>
 
-    
+
+
+
+
 </body>
 </html>
