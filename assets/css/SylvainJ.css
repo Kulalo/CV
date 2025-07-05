@@ -46,6 +46,17 @@
   box-sizing: border-box;
 }
 
+
+#photo-sylvain {
+  transition: opacity 0.5s ease;
+}
+.photo-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
