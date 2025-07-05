@@ -27,29 +27,6 @@ $(document).ready(function(){
     });
 });
 
-// protfolio filters
-$(window).on("load", function() {
-    var t = $(".portfolio-container");
-    t.isotope({
-        filter: ".new",
-        animationOptions: {
-            duration: 750,
-            easing: "linear",
-            queue: !1
-        }
-    }), $(".filters a").click(function() {
-        $(".filters .active").removeClass("active"), $(this).addClass("active");
-        var i = $(this).attr("data-filter");
-        return t.isotope({
-            filter: i,
-            animationOptions: {
-                duration: 750,
-                easing: "linear",
-                queue: !1
-            }
-        }), !1
-    });
-});
 
 
 // google maps
@@ -144,3 +121,27 @@ function initMap() {
       ]
     });
 }
+
+
+function toggleBrandImage() {
+  const img = document.getElementById('brandImage');
+  if (!img) return;
+
+  // Ajuste ce seuil pour retarder la disparition (par exemple 200, 300, 400...)
+  const seuil = 300;
+
+  if (window.scrollY < seuil) {
+    img.style.opacity = '1';
+    img.style.pointerEvents = 'auto';
+  } else {
+    img.style.opacity = '0';
+    img.style.transition = 'opacity 0.5s ease';
+    img.style.pointerEvents = 'none';
+  }
+}
+
+window.addEventListener('scroll', toggleBrandImage);
+window.addEventListener('load', toggleBrandImage);
+
+
+
