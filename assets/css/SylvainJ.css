@@ -46,17 +46,6 @@
   box-sizing: border-box;
 }
 
-
-#photo-sylvain {
-  transition: opacity 0.5s ease;
-}
-.photo-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -11557,3 +11546,32 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+
+.hide-img {
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+}
+.brand-img {
+  transition: opacity 0.4s;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.social-link .ti-linkedin {
+    color: #0077B5;
+    transition: color 0.3s ease;
+}
+
+.social-link .ti-github {
+    color: #9999FF;
+    transition: color 0.3s ease;
+}
+
+
